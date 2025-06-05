@@ -7,7 +7,7 @@
 } */
 
 .gradient__text {
-  background: linear-gradient(to right, #E9A7B3, #DDB7E3);
+  background: linear-gradient(to right, #c33a53, #de7bed);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -32,11 +32,11 @@
 
 @keyframes float {
   0%, 100% { transform: translateY(0) rotate(0deg); }
-  70% { transform: translateY(-10px) rotate(9deg); }
+  70% { transform: translateY(-50px) rotate(40deg); }
 }
 
 .animate-float-slow {
-  animation: float 6s ease-in-out infinite;
+  animation: float 10s ease-in-out infinite;
 }
 
 
